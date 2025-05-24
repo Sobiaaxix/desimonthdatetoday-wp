@@ -1,0 +1,711 @@
+0000.000 (0) Opened log file at time: Fri, 23 May 2025 06:59:14 +0000 on https://desimonthdatetoday.net
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.5 WP: 6.8.1 PHP: 8.1.32 (litespeed, Linux prism.httpnoc.com 4.18.0-553.16.1.lve.el8.x86_64 #1 SMP Tue Aug 13 17:45:03 UTC 2024 x86_64) MySQL: 10.11.13-MariaDB (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1024M (used: 17.1M | 20M) multisite: N openssl: OpenSSL 1.1.1k  FIPS 25 Mar 2021 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.086 (0) Free space on disk containing Updraft's temporary directory: 1018865 MB
+0000.094 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.099 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.162 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1747897076, seconds_ago=86479)
+0000.169 (0) Set semaphore last lock (fd) time to 2025-05-23 06:59:15
+0000.172 (0) Semaphore lock (fd) complete
+0000.182 (0) Backup run: resumption=0, nonce=6640fdc307ba, file_nonce=6640fdc307ba begun at=1747983554 (1s ago), job type=backup
+0000.189 (0) Scheduling a resumption (1) after 300 seconds (1747983855) in case this run gets aborted
+0000.208 (0) Checking if we have a zip executable available
+0000.212 (0) Testing: /usr/bin/zip
+0000.221 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.225 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.229 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.233 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.237 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.252 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.257 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.271 (0) Working binary zip found: /usr/bin/zip
+0000.279 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.283 (0) Creation of backups of directories: beginning
+0000.296 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.483 (0) Total entities for the zip file: 1804 directories, 9552 files (0 skipped as non-modified), 176 MB
+0000.491 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.497 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.502 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.506 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.512 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.517 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.521 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.525 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.530 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.535 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (20.4 MB, 9552 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.369 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: size is now: 5.90 MB
+0001.380 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1100 files added (on-disk size: 6028.6 KB)
+0001.385 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1200 files added (on-disk size: 6028.6 KB)
+0001.389 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1300 files added (on-disk size: 6028.6 KB)
+0001.393 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1400 files added (on-disk size: 6028.6 KB)
+0001.397 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1500 files added (on-disk size: 6028.6 KB)
+0001.402 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1600 files added (on-disk size: 6028.6 KB)
+0001.406 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1700 files added (on-disk size: 6028.6 KB)
+0001.412 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1800 files added (on-disk size: 6028.6 KB)
+0001.416 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 1900 files added (on-disk size: 6028.6 KB)
+0001.421 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2000 files added (on-disk size: 6028.6 KB)
+0001.424 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (24.8 MB, 9552 files batched, 1001 (2002) added so far); re-opening (prior size: 6028.6 KB)
+0002.207 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: size is now: 17.70 MB
+0002.224 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2100 files added (on-disk size: 18163.4 KB)
+0002.230 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2200 files added (on-disk size: 18163.4 KB)
+0002.235 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2300 files added (on-disk size: 18163.4 KB)
+0002.240 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2400 files added (on-disk size: 18163.4 KB)
+0002.244 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2500 files added (on-disk size: 18163.4 KB)
+0002.248 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2600 files added (on-disk size: 18163.4 KB)
+0002.252 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2700 files added (on-disk size: 18163.4 KB)
+0002.257 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2800 files added (on-disk size: 18163.4 KB)
+0002.261 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 2900 files added (on-disk size: 18163.4 KB)
+0002.266 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3000 files added (on-disk size: 18163.4 KB)
+0002.270 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4 MB, 9552 files batched, 1001 (3003) added so far); re-opening (prior size: 18163.4 KB)
+0002.487 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3100 files added (on-disk size: 19695.8 KB)
+0002.495 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3200 files added (on-disk size: 19695.8 KB)
+0002.500 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3300 files added (on-disk size: 19695.8 KB)
+0002.506 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3400 files added (on-disk size: 19695.8 KB)
+0002.511 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3500 files added (on-disk size: 19695.8 KB)
+0002.515 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3600 files added (on-disk size: 19695.8 KB)
+0002.520 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3700 files added (on-disk size: 19695.8 KB)
+0002.525 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3800 files added (on-disk size: 19695.8 KB)
+0002.529 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 3900 files added (on-disk size: 19695.8 KB)
+0002.534 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4000 files added (on-disk size: 19695.8 KB)
+0002.538 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.8 MB, 9552 files batched, 1001 (4004) added so far); re-opening (prior size: 19695.8 KB)
+0003.080 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: size is now: 23.30 MB
+0003.096 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4100 files added (on-disk size: 23840.3 KB)
+0003.102 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4200 files added (on-disk size: 23840.3 KB)
+0003.108 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4300 files added (on-disk size: 23840.3 KB)
+0003.115 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4400 files added (on-disk size: 23840.3 KB)
+0003.121 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4500 files added (on-disk size: 23840.3 KB)
+0003.127 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4600 files added (on-disk size: 23840.3 KB)
+0003.135 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4700 files added (on-disk size: 23840.3 KB)
+0003.141 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4800 files added (on-disk size: 23840.3 KB)
+0003.147 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 4900 files added (on-disk size: 23840.3 KB)
+0003.152 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5000 files added (on-disk size: 23840.3 KB)
+0003.156 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.1 MB, 9552 files batched, 1001 (5005) added so far); re-opening (prior size: 23840.3 KB)
+0003.477 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5100 files added (on-disk size: 26145.1 KB)
+0003.484 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5200 files added (on-disk size: 26145.1 KB)
+0003.490 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5300 files added (on-disk size: 26145.1 KB)
+0003.495 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5400 files added (on-disk size: 26145.1 KB)
+0003.499 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5500 files added (on-disk size: 26145.1 KB)
+0003.502 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5600 files added (on-disk size: 26145.1 KB)
+0003.506 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5700 files added (on-disk size: 26145.1 KB)
+0003.510 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5800 files added (on-disk size: 26145.1 KB)
+0003.514 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 5900 files added (on-disk size: 26145.1 KB)
+0003.519 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6000 files added (on-disk size: 26145.1 KB)
+0003.523 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.1 MB, 9552 files batched, 1001 (6006) added so far); re-opening (prior size: 26145.1 KB)
+0004.400 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: size is now: 32.40 MB
+0004.415 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6100 files added (on-disk size: 33226.2 KB)
+0004.420 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6200 files added (on-disk size: 33226.2 KB)
+0004.425 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6300 files added (on-disk size: 33226.2 KB)
+0004.430 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6400 files added (on-disk size: 33226.2 KB)
+0004.434 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6500 files added (on-disk size: 33226.2 KB)
+0004.439 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6600 files added (on-disk size: 33226.2 KB)
+0004.442 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6700 files added (on-disk size: 33226.2 KB)
+0004.447 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6800 files added (on-disk size: 33226.2 KB)
+0004.454 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 6900 files added (on-disk size: 33226.2 KB)
+0004.460 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7000 files added (on-disk size: 33226.2 KB)
+0004.463 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (23.1 MB, 9552 files batched, 1001 (7007) added so far); re-opening (prior size: 33226.2 KB)
+0005.647 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: size is now: 41.90 MB
+0005.660 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7100 files added (on-disk size: 42864.9 KB)
+0005.664 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7200 files added (on-disk size: 42864.9 KB)
+0005.668 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7300 files added (on-disk size: 42864.9 KB)
+0005.672 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7400 files added (on-disk size: 42864.9 KB)
+0005.675 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7500 files added (on-disk size: 42864.9 KB)
+0005.679 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7600 files added (on-disk size: 42864.9 KB)
+0005.683 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7700 files added (on-disk size: 42864.9 KB)
+0005.687 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7800 files added (on-disk size: 42864.9 KB)
+0005.691 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 7900 files added (on-disk size: 42864.9 KB)
+0005.694 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8000 files added (on-disk size: 42864.9 KB)
+0005.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (19.4 MB, 9552 files batched, 1001 (8008) added so far); re-opening (prior size: 42864.9 KB)
+0006.826 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8100 files added (on-disk size: 50587.8 KB)
+0006.833 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8200 files added (on-disk size: 50587.8 KB)
+0006.838 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8300 files added (on-disk size: 50587.8 KB)
+0006.845 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8400 files added (on-disk size: 50587.8 KB)
+0006.849 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 9552 files batched, 431 (8439) added so far); re-opening (prior size: 50587.8 KB)
+0007.928 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13373.4 KB/s)
+0007.937 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.9163029193878, normalised_time=1.9142479857419, max_time=7.9332849979401, data points known=1, old_max_bytes=26214400, new_max_bytes=82166156)
+0007.943 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8500 files added (on-disk size: 56622.4 KB)
+0007.947 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8600 files added (on-disk size: 56622.4 KB)
+0007.951 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8700 files added (on-disk size: 56622.4 KB)
+0007.954 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8800 files added (on-disk size: 56622.4 KB)
+0007.957 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 8900 files added (on-disk size: 56622.4 KB)
+0007.961 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9000 files added (on-disk size: 56622.4 KB)
+0007.964 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9100 files added (on-disk size: 56622.4 KB)
+0007.968 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9200 files added (on-disk size: 56622.4 KB)
+0007.971 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9300 files added (on-disk size: 56622.4 KB)
+0007.975 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9400 files added (on-disk size: 56622.4 KB)
+0007.978 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (12.5 MB, 9552 files batched, 1001 (9440) added so far); re-opening (prior size: 56622.4 KB)
+0008.691 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.tmp: 9500 files added (on-disk size: 60363.7 KB)
+0009.712 (0) Creating zip file manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.list-temp.tmp)
+0009.765 (0) Successfully created zip file manifest (size: 886264)
+0010.285 (0) Created plugins zip (0) - 60958.4 KB in 9.9 s (6136.6 KB/s) (sha1: 0bce735928247f226572ffbfa9b212645dc92bbf, sha256: b41679129f04ed9d3987fc11075792bf1d7cef0e5c8a6a43f4c5ff4818aafc01)
+0010.299 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0010.302 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0011.369 (0) Google Drive: quota usage: used=3043.8 MB, total=2097152 MB, available=2094108.2 MB
+0011.376 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0012.001 (0) Googledrive chunked upload: 1.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 20.3 / 34)
+0012.165 (0) Googledrive chunked upload: 5 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 20.7 / 34)
+0012.369 (0) Googledrive chunked upload: 11.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 20.7 / 34)
+0012.656 (0) Googledrive chunked upload: 25.2 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 20.7 / 34)
+0013.037 (0) Googledrive chunked upload: 52.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 20.7 / 34)
+0015.465 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0015.479 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip uploaded in 4.1 seconds
+0015.483 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip
+0015.508 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip: OK
+0015.528 (0) Beginning creation of dump of themes (split every: 400 MB)
+0015.596 (0) Total entities for the zip file: 133 directories, 626 files (0 skipped as non-modified), 8.1 MB
+0015.602 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0015.607 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0015.612 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0015.616 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0015.619 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0015.623 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0015.856 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.tmp: size is now: 2.10 MB
+0015.878 (0) Creating zip file manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.list-temp.tmp)
+0015.885 (0) Successfully created zip file manifest (size: 43579)
+0015.920 (0) Created themes zip (0) - 2114.3 KB in 0.3 s (6168.9 KB/s) (sha1: 4df770ef7bb5dbfdb59d6c2daa7e8be4aed3f95d, sha256: 1c01ce0a47b38a6ad9878429da3a301cc3e2e040692d8059b25c36b825506454)
+0015.929 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.932 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0016.189 (0) Google Drive: quota usage: used=3103.3 MB, total=2097152 MB, available=2094048.7 MB
+0016.195 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0016.817 (0) Googledrive chunked upload: 48.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.7 / 34)
+0017.826 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0017.838 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip uploaded in 1.64 seconds
+0017.842 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip
+0017.851 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip: OK
+0017.860 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0017.862 (0) Looking for candidates to backup in: /home/desimont/public_html/wp-content/uploads
+0017.865 (0) finding files: 2024: adding to list (1)
+0017.867 (0) finding files: 2025: adding to list (2)
+0017.871 (0) finding files: .htaccess: adding to list (3)
+0017.876 (0) finding files: slider5: adding to list (4)
+0017.880 (0) finding files: webp-express-test-conversion.webp: adding to list (5)
+0017.886 (0) finding files: rank-math: adding to list (6)
+0017.890 (0) finding files: slider: adding to list (7)
+0017.893 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0017.973 (0) Total entities for the zip file: 27 directories, 1260 files (0 skipped as non-modified), 51.7 MB
+0017.980 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.988 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0017.994 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0017.999 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0018.003 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0018.006 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 600 files added (on-disk size: 0 KB)
+0018.012 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 700 files added (on-disk size: 0 KB)
+0018.017 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 800 files added (on-disk size: 0 KB)
+0018.021 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 900 files added (on-disk size: 0 KB)
+0018.025 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0018.028 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (43.7 MB, 1260 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0018.877 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: size is now: 43.60 MB
+0018.891 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 1100 files added (on-disk size: 44649.8 KB)
+0018.895 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.tmp: 1200 files added (on-disk size: 44649.8 KB)
+0019.174 (0) Creating zip file manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.list-temp.tmp)
+0019.187 (0) Successfully created zip file manifest (size: 69697)
+0019.633 (0) Created uploads zip (0) - 52899.3 KB in 1.7 s (31343.7 KB/s) (sha1: 775c3031d0319a882f290bf75e50ea624bcdac02, sha256: 7f64e8a80fd0add6baeafc9da683bbe88d6a24ca5ef918e58a678c10f1ee1f8b)
+0019.646 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0019.649 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0019.894 (0) Google Drive: quota usage: used=3103.3 MB, total=2097152 MB, available=2094048.7 MB
+0019.901 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0020.460 (0) Googledrive chunked upload: 1.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.8 / 34)
+0020.667 (0) Googledrive chunked upload: 5.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.2 / 34)
+0020.869 (0) Googledrive chunked upload: 13.6 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.2 / 34)
+0021.116 (0) Googledrive chunked upload: 29 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.2 / 34)
+0021.477 (0) Googledrive chunked upload: 60 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 19.2 / 34)
+0022.721 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0022.733 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip uploaded in 2.83 seconds
+0022.738 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip
+0022.762 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip: OK
+0022.775 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0022.839 (0) Total entities for the zip file: 10 directories, 52 files (0 skipped as non-modified), 0.2 MB
+0022.869 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip.tmp: size is now: 0.10 MB
+0022.884 (0) Creating zip file manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip.list-temp.tmp)
+0022.890 (0) Successfully created zip file manifest (size: 4125)
+0022.903 (0) Created mu-plugins zip (0) - 63.6 KB in 0.1 s (908.5 KB/s) (sha1: d5bada219e30bc4187c1ae152c217f409cecb6d8, sha256: e0c1eea4c8ed7f1ea17287be300b3be270a2a9086dd6bea062a1ca2c0c7ae594)
+0022.911 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0022.915 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0023.180 (0) Google Drive: quota usage: used=3105.4 MB, total=2097152 MB, available=2094046.6 MB
+0023.186 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0024.456 (0) Googledrive chunked upload: 100 % uploaded
+0024.468 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip uploaded in 1.28 seconds
+0024.472 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip
+0024.478 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip: OK
+0024.489 (0) Beginning backup of other directories found in the content directory (index: 0)
+0024.492 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0024.496 (0) Looking for candidates to backup in: /home/desimont/public_html/wp-content
+0024.500 (0) finding files: litespeed: adding to list (1)
+0024.504 (0) finding files: themes: skipping: this is the themes directory
+0024.508 (0) finding files: upgrade: skipping: excluded by options
+0024.512 (0) finding files: gravatars: adding to list (2)
+0024.515 (0) finding files: .litespeed_conf.dat: adding to list (3)
+0024.518 (0) finding files: advanced-cache.php: adding to list (4)
+0024.521 (0) finding files: updraft: skipping: this is the updraft directory
+0024.524 (0) finding files: index.php: adding to list (5)
+0024.527 (0) finding files: wp-rocket-config: adding to list (6)
+0024.529 (0) finding files: webp-express: adding to list (7)
+0024.532 (0) finding files: uploads: skipping: this is the uploads directory
+0024.537 (0) finding files: backuply: skipping: excluded by options (glob)
+0024.541 (0) finding files: maintenance: adding to list (8)
+0024.544 (0) finding files: cache: skipping: excluded by options
+0024.547 (0) finding files: maintenance.php: adding to list (9)
+0024.550 (0) finding files: wp-cloudflare-super-page-cache: adding to list (10)
+0024.553 (0) finding files: speedycache-config: adding to list (11)
+0024.557 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0024.560 (0) finding files: object-cache.php: adding to list (12)
+0024.564 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0024.568 (0) finding files: wflogs: adding to list (13)
+0024.572 (0) finding files: plugins: skipping: this is the plugins directory
+0024.576 (0) finding files: upgrade-temp-backup: adding to list (14)
+0024.643 (0) Total entities for the zip file: 39 directories, 332 files (0 skipped as non-modified), 20.4 MB
+0024.650 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.656 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.661 (0) Zip: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0025.596 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.tmp: size is now: 12.60 MB
+0025.614 (0) Creating zip file manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.list-temp.tmp)
+0025.622 (0) Successfully created zip file manifest (size: 23853)
+0025.747 (0) Created others zip (0) - 12920.5 KB in 1.1 s (11584.1 KB/s) (sha1: 401c52ca7af5ca211041f9aaae14849910b826d3, sha256: a11dfe53a2a55df543b464cdb2d9e63ff6a8697c6f54116dffc9bdac12d55457)
+0025.761 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.765 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0026.113 (0) Google Drive: quota usage: used=3157 MB, total=2097152 MB, available=2093995 MB
+0026.119 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0026.739 (0) Googledrive chunked upload: 7.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.7 / 34)
+0026.908 (0) Googledrive chunked upload: 23.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.1 / 34)
+0027.123 (0) Googledrive chunked upload: 55.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.1 / 34)
+0027.983 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0027.995 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip uploaded in 1.87 seconds
+0027.998 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip
+0028.007 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip: OK
+0028.019 (0) Saving backup status to database (elements: 10)
+0028.026 (0) Beginning creation of database dump (WordPress DB)
+0028.028 (0) SQL compatibility mode is: ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0028.033 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0028.060 (0) Output: /*M!999999\- enable the sandbox mode */ \n/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpfu_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40 (truncated - 1507 bytes total)
+0028.064 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0028.084 (0) Table wpfu_options: Total expected rows (via COUNT): 751
+0028.160 (0) Table wpfu_options: Rows added in this batch (next record: 133304): 747 (uncompressed bytes in this segment=2093597) in 0.08 seconds
+0028.176 (0) Table wpfu_options: finishing file(s) (2, 406.6 KB)
+0028.182 (0) Table wpfu_users: Total expected rows (via COUNT): 1
+0028.184 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.188 (0) Table wpfu_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1223) in 0.01 seconds
+0028.194 (0) Table wpfu_users: finishing file(s) (2, 0.6 KB)
+0028.203 (0) Table wpfu_usermeta: Total expected rows (via COUNT): 57
+0028.205 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.211 (0) Table wpfu_usermeta: Rows added in this batch (next record: 65): 57 (uncompressed bytes in this segment=11486) in 0.01 seconds
+0028.222 (0) Table wpfu_usermeta: finishing file(s) (2, 4.6 KB)
+0028.230 (0) Table wpfu_actionscheduler_actions: Total expected rows (via COUNT): 10
+0028.232 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.236 (0) Table wpfu_actionscheduler_actions: Rows added in this batch (next record: 825): 10 (uncompressed bytes in this segment=5541) in 0.01 seconds
+0028.245 (0) Table wpfu_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0028.250 (0) Table wpfu_actionscheduler_claims: Total expected rows (via COUNT): 0
+0028.254 (0) Table wpfu_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.00 seconds
+0028.260 (0) Table wpfu_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0028.265 (0) Table wpfu_actionscheduler_groups: Total expected rows (via COUNT): 3
+0028.267 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.272 (0) Table wpfu_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=711) in 0.01 seconds
+0028.278 (0) Table wpfu_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0028.284 (0) Table wpfu_actionscheduler_logs: Total expected rows (via COUNT): 31
+0028.286 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.291 (0) Table wpfu_actionscheduler_logs: Rows added in this batch (next record: 573): 31 (uncompressed bytes in this segment=4532) in 0.01 seconds
+0028.297 (0) Table wpfu_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0028.304 (0) Table wpfu_commentmeta: Total expected rows (via COUNT): 2
+0028.306 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.311 (0) Table wpfu_commentmeta: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=782) in 0.01 seconds
+0028.319 (0) Table wpfu_commentmeta: finishing file(s) (2, 0.4 KB)
+0028.326 (0) Table wpfu_comments: Total expected rows (via COUNT): 1
+0028.328 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.330 (0) Table wpfu_comments: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=1822) in 0.01 seconds
+0028.336 (0) Table wpfu_comments: finishing file(s) (2, 0.7 KB)
+0028.342 (0) Table wpfu_kbp_countdown_entry: Total expected rows (via COUNT): 0
+0028.346 (0) Table wpfu_kbp_countdown_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=768) in 0.00 seconds
+0028.353 (0) Table wpfu_kbp_countdown_entry: finishing file(s) (2, 0.4 KB)
+0028.359 (0) Table wpfu_kbp_form_entry: Total expected rows (via COUNT): 0
+0028.361 (0) Table wpfu_kbp_form_entry: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.00 seconds
+0028.367 (0) Table wpfu_kbp_form_entry: finishing file(s) (2, 0.4 KB)
+0028.374 (0) Table wpfu_kbp_form_entrymeta: Total expected rows (via COUNT): 0
+0028.378 (0) Table wpfu_kbp_form_entrymeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=691) in 0.01 seconds
+0028.386 (0) Table wpfu_kbp_form_entrymeta: finishing file(s) (2, 0.4 KB)
+0028.392 (0) Table wpfu_kbp_form_events: Total expected rows (via COUNT): 0
+0028.396 (0) Table wpfu_kbp_form_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=800) in 0.01 seconds
+0028.404 (0) Table wpfu_kbp_form_events: finishing file(s) (2, 0.4 KB)
+0028.411 (0) Table wpfu_kbp_query_index: Total expected rows (via COUNT): 0
+0028.414 (0) Table wpfu_kbp_query_index: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.00 seconds
+0028.422 (0) Table wpfu_kbp_query_index: finishing file(s) (2, 0.4 KB)
+0028.431 (0) Table wpfu_links: Total expected rows (via COUNT): 0
+0028.435 (0) Table wpfu_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1035) in 0.00 seconds
+0028.444 (0) Table wpfu_links: finishing file(s) (2, 0.5 KB)
+0028.459 (0) Table wpfu_postmeta: Total expected rows (approximate): 3389
+0028.497 (0) Table wpfu_postmeta: Rows added in this batch (next record: 9577): 3348 (uncompressed bytes in this segment=785382) in 0.05 seconds
+0028.509 (0) Table wpfu_postmeta: finishing file(s) (2, 72 KB)
+0028.782 (0) Table wpfu_posts: Total expected rows (approximate): 1222
+0029.802 (0) Table wpfu_posts: Rows added in this batch (next record: 6590): 1750 (uncompressed bytes in this segment=56237651) in 1.29 seconds
+0029.820 (0) Table wpfu_posts: finishing file(s) (2, 6097.1 KB)
+0029.826 (0) Table wpfu_term_relationships: Total expected rows (approximate): 24
+0029.831 (0) Table wpfu_term_relationships: Rows added in this batch (next record: 100000): 25 (uncompressed bytes in this segment=1036) in 0.01 seconds
+0029.837 (0) Table wpfu_term_relationships: finishing file(s) (2, 0.5 KB)
+0029.846 (0) Table wpfu_term_taxonomy: Total expected rows (via COUNT): 8
+0029.848 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.852 (0) Table wpfu_term_taxonomy: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1149) in 0.01 seconds
+0029.862 (0) Table wpfu_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0029.870 (0) Table wpfu_termmeta: Total expected rows (via COUNT): 8
+0029.873 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.875 (0) Table wpfu_termmeta: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=946) in 0.01 seconds
+0029.884 (0) Table wpfu_termmeta: finishing file(s) (2, 0.5 KB)
+0029.890 (0) Table wpfu_terms: Total expected rows (via COUNT): 8
+0029.892 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.895 (0) Table wpfu_terms: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=939) in 0.01 seconds
+0029.902 (0) Table wpfu_terms: finishing file(s) (2, 0.5 KB)
+0029.914 (0) Table wpfu_hfcm_scripts: Total expected rows (via COUNT): 1
+0029.917 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.920 (0) Table wpfu_hfcm_scripts: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1874) in 0.01 seconds
+0029.930 (0) Table wpfu_hfcm_scripts: finishing file(s) (2, 0.8 KB)
+0029.936 (0) Table wpfu_litespeed_avatar: Total expected rows (via COUNT): 19
+0029.938 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.941 (0) Table wpfu_litespeed_avatar: Rows added in this batch (next record: 25): 19 (uncompressed bytes in this segment=3654) in 0.01 seconds
+0029.948 (0) Table wpfu_litespeed_avatar: finishing file(s) (2, 1.1 KB)
+0029.954 (0) Table wpfu_litespeed_img_optming: Total expected rows (via COUNT): 0
+0029.958 (0) Table wpfu_litespeed_img_optming: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0029.965 (0) Table wpfu_litespeed_img_optming: finishing file(s) (2, 0.4 KB)
+0029.971 (0) Table wpfu_litespeed_url: Total expected rows (via COUNT): 28
+0029.973 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.977 (0) Table wpfu_litespeed_url: Rows added in this batch (next record: 977): 28 (uncompressed bytes in this segment=2229) in 0.01 seconds
+0029.984 (0) Table wpfu_litespeed_url: finishing file(s) (2, 0.7 KB)
+0029.990 (0) Table wpfu_litespeed_url_file: Total expected rows (via COUNT): 248
+0029.991 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.997 (0) Table wpfu_litespeed_url_file: Rows added in this batch (next record: 6521): 248 (uncompressed bytes in this segment=19215) in 0.01 seconds
+0030.004 (0) Table wpfu_litespeed_url_file: finishing file(s) (2, 4.6 KB)
+0030.009 (0) Table wpfu_loginizer_logs: Total expected rows (approximate): 0
+0030.013 (0) Table wpfu_loginizer_logs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=643) in 0.00 seconds
+0030.020 (0) Table wpfu_loginizer_logs: finishing file(s) (2, 0.3 KB)
+0030.025 (0) Table wpfu_nextend2_image_storage: Total expected rows (via COUNT): 34
+0030.027 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.032 (0) Table wpfu_nextend2_image_storage: Rows added in this batch (next record: 34): 34 (uncompressed bytes in this segment=7605) in 0.01 seconds
+0030.042 (0) Table wpfu_nextend2_image_storage: finishing file(s) (2, 1.7 KB)
+0030.051 (0) Table wpfu_nextend2_section_storage: Total expected rows (via COUNT): 2
+0030.053 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.059 (0) Table wpfu_nextend2_section_storage: Rows added in this batch (next record: 11534): 2 (uncompressed bytes in this segment=1260) in 0.01 seconds
+0030.069 (0) Table wpfu_nextend2_section_storage: finishing file(s) (2, 0.6 KB)
+0030.078 (0) Table wpfu_nextend2_smartslider3_generators: Total expected rows (via COUNT): 0
+0030.085 (0) Table wpfu_nextend2_smartslider3_generators: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=633) in 0.01 seconds
+0030.092 (0) Table wpfu_nextend2_smartslider3_generators: finishing file(s) (2, 0.4 KB)
+0030.098 (0) Table wpfu_nextend2_smartslider3_sliders: Total expected rows (via COUNT): 5
+0030.100 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.105 (0) Table wpfu_nextend2_smartslider3_sliders: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=59767) in 0.01 seconds
+0030.111 (0) Table wpfu_nextend2_smartslider3_sliders: finishing file(s) (2, 6.7 KB)
+0030.116 (0) Table wpfu_nextend2_smartslider3_sliders_xref: Total expected rows (approximate): 4
+0030.120 (0) Table wpfu_nextend2_smartslider3_sliders_xref: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=776) in 0.00 seconds
+0030.126 (0) Table wpfu_nextend2_smartslider3_sliders_xref: finishing file(s) (2, 0.4 KB)
+0030.133 (0) Table wpfu_nextend2_smartslider3_slides: Total expected rows (via COUNT): 18
+0030.135 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.140 (0) Table wpfu_nextend2_smartslider3_slides: Rows added in this batch (next record: 46): 18 (uncompressed bytes in this segment=46032) in 0.01 seconds
+0030.149 (0) Table wpfu_nextend2_smartslider3_slides: finishing file(s) (2, 3.9 KB)
+0030.156 (0) Table wpfu_rank_math_404_logs: Total expected rows (via COUNT): 13
+0030.158 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.160 (0) Table wpfu_rank_math_404_logs: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=1596) in 0.01 seconds
+0030.166 (0) Table wpfu_rank_math_404_logs: finishing file(s) (2, 0.7 KB)
+0030.171 (0) Table wpfu_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0030.177 (0) Table wpfu_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=925) in 0.01 seconds
+0030.184 (0) Table wpfu_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0030.193 (0) Table wpfu_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0030.195 (0) Table wpfu_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1506) in 0.01 seconds
+0030.203 (0) Table wpfu_rank_math_analytics_inspections: finishing file(s) (2, 0.6 KB)
+0030.209 (0) Table wpfu_rank_math_analytics_objects: Total expected rows (via COUNT): 21
+0030.211 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.215 (0) Table wpfu_rank_math_analytics_objects: Rows added in this batch (next record: 23): 21 (uncompressed bytes in this segment=4972) in 0.01 seconds
+0030.221 (0) Table wpfu_rank_math_analytics_objects: finishing file(s) (2, 1.7 KB)
+0030.227 (0) Table wpfu_rank_math_internal_links: Total expected rows (via COUNT): 64
+0030.229 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.233 (0) Table wpfu_rank_math_internal_links: Rows added in this batch (next record: 24058): 64 (uncompressed bytes in this segment=6212) in 0.01 seconds
+0030.239 (0) Table wpfu_rank_math_internal_links: finishing file(s) (2, 1.4 KB)
+0030.245 (0) Table wpfu_rank_math_internal_meta: Total expected rows (via COUNT): 26
+0030.247 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.251 (0) Table wpfu_rank_math_internal_meta: Rows added in this batch (next record: 6537): 26 (uncompressed bytes in this segment=1141) in 0.01 seconds
+0030.257 (0) Table wpfu_rank_math_internal_meta: finishing file(s) (2, 0.5 KB)
+0030.264 (0) Table wpfu_rank_math_redirections: Total expected rows (via COUNT): 13
+0030.266 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.270 (0) Table wpfu_rank_math_redirections: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=4145) in 0.01 seconds
+0030.277 (0) Table wpfu_rank_math_redirections: finishing file(s) (2, 1.1 KB)
+0030.282 (0) Table wpfu_rank_math_redirections_cache: Total expected rows (via COUNT): 13
+0030.284 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.287 (0) Table wpfu_rank_math_redirections_cache: Rows added in this batch (next record: 14): 13 (uncompressed bytes in this segment=1484) in 0.00 seconds
+0030.292 (0) Table wpfu_rank_math_redirections_cache: finishing file(s) (2, 0.7 KB)
+0030.298 (0) Table wpfu_wfauditevents: Total expected rows (via COUNT): 0
+0030.302 (0) Table wpfu_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.00 seconds
+0030.308 (0) Table wpfu_wfauditevents: finishing file(s) (2, 0.4 KB)
+0030.313 (0) Table wpfu_wfblockediplog: Total expected rows (approximate): 12
+0030.315 (0) Table wpfu_wfblockediplog: Rows added in this batch (next record: 1000): 46 (uncompressed bytes in this segment=3607) in 0.00 seconds
+0030.321 (0) Table wpfu_wfblockediplog: finishing file(s) (2, 0.9 KB)
+0030.327 (0) Table wpfu_wfblocks7: Total expected rows (via COUNT): 0
+0030.329 (0) Table wpfu_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0030.334 (0) Table wpfu_wfblocks7: finishing file(s) (2, 0.4 KB)
+0030.340 (0) Table wpfu_wfconfig: Total expected rows (approximate): 280
+0030.392 (0) Table wpfu_wfconfig: Rows added in this batch (next record: 1000): 283 (uncompressed bytes in this segment=881590) in 0.05 seconds
+0030.404 (0) Table wpfu_wfconfig: finishing file(s) (2, 447.8 KB)
+0030.411 (0) Table wpfu_wfcrawlers: Total expected rows (approximate): 1
+0030.414 (0) Table wpfu_wfcrawlers: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=765) in 0.00 seconds
+0030.428 (0) Table wpfu_wfcrawlers: finishing file(s) (2, 0.5 KB)
+0030.435 (0) Table wpfu_wffilechanges: Total expected rows (approximate): 0
+0030.439 (0) Table wpfu_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=494) in 0.00 seconds
+0030.446 (0) Table wpfu_wffilechanges: finishing file(s) (2, 0.3 KB)
+0030.451 (0) Table wpfu_wffilemods: Total expected rows (approximate): 13171
+0030.593 (0) Table wpfu_wffilemods: binary mysqldump finished (writes: 12734, bytes 3905552, return code 0) in 0.14 seconds
+0030.603 (0) Table wpfu_wffilemods: finishing file(s) (1, 1213.6 KB)
+0030.612 (0) Table wpfu_wfhits: Total expected rows (via COUNT): 533
+0030.629 (0) Table wpfu_wfhits: Rows added in this batch (next record: 1217): 533 (uncompressed bytes in this segment=391083) in 0.02 seconds
+0030.638 (0) Table wpfu_wfhits: finishing file(s) (2, 43.2 KB)
+0030.645 (0) Table wpfu_wfhoover: Total expected rows (via COUNT): 0
+0030.648 (0) Table wpfu_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=557) in 0.00 seconds
+0030.655 (0) Table wpfu_wfhoover: finishing file(s) (2, 0.4 KB)
+0030.662 (0) Table wpfu_wfissues: Total expected rows (via COUNT): 1
+0030.664 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.669 (0) Table wpfu_wfissues: Rows added in this batch (next record: 86): 1 (uncompressed bytes in this segment=1757) in 0.01 seconds
+0030.676 (0) Table wpfu_wfissues: finishing file(s) (2, 0.9 KB)
+0030.681 (0) Table wpfu_wfknownfilelist: Total expected rows (approximate): 12516
+0030.748 (0) Table wpfu_wfknownfilelist: binary mysqldump finished (writes: 12727, bytes 2465786, return code 0) in 0.06 seconds
+0030.753 (0) Table wpfu_wfknownfilelist: finishing file(s) (1, 179.1 KB)
+0030.759 (0) Table wpfu_wflivetraffichuman: Total expected rows (approximate): 0
+0030.763 (0) Table wpfu_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=690) in 0.00 seconds
+0030.770 (0) Table wpfu_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0030.776 (0) Table wpfu_wflocs: Total expected rows (approximate): 2
+0030.778 (0) Table wpfu_wflocs: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=1125) in 0.00 seconds
+0030.785 (0) Table wpfu_wflocs: finishing file(s) (2, 0.5 KB)
+0030.790 (0) Table wpfu_wflogins: Total expected rows (via COUNT): 540
+0030.798 (0) Table wpfu_wflogins: Rows added in this batch (next record: 540): 540 (uncompressed bytes in this segment=116477) in 0.01 seconds
+0030.804 (0) Table wpfu_wflogins: finishing file(s) (2, 11.5 KB)
+0030.810 (0) Table wpfu_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0030.812 (0) Table wpfu_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=723) in 0.00 seconds
+0030.819 (0) Table wpfu_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0030.826 (0) Table wpfu_wfls_role_counts: Total expected rows (approximate): 0
+0030.829 (0) Table wpfu_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=592) in 0.00 seconds
+0030.836 (0) Table wpfu_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0030.842 (0) Table wpfu_wfls_settings: Total expected rows (approximate): 27
+0030.844 (0) Table wpfu_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2106) in 0.00 seconds
+0030.851 (0) Table wpfu_wfls_settings: finishing file(s) (2, 1 KB)
+0030.856 (0) Table wpfu_wfnotifications: Total expected rows (approximate): 13
+0030.859 (0) Table wpfu_wfnotifications: Rows added in this batch (next record: 1000): 46 (uncompressed bytes in this segment=8788) in 0.00 seconds
+0030.865 (0) Table wpfu_wfnotifications: finishing file(s) (2, 1.2 KB)
+0030.870 (0) Table wpfu_wfpendingissues: Total expected rows (via COUNT): 0
+0030.873 (0) Table wpfu_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=914) in 0.00 seconds
+0030.879 (0) Table wpfu_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0030.884 (0) Table wpfu_wfreversecache: Total expected rows (approximate): 2
+0030.887 (0) Table wpfu_wfreversecache: Rows added in this batch (next record: 1000): 3 (uncompressed bytes in this segment=825) in 0.00 seconds
+0030.893 (0) Table wpfu_wfreversecache: finishing file(s) (2, 0.5 KB)
+0030.898 (0) Table wpfu_wfsecurityevents: Total expected rows (via COUNT): 0
+0030.901 (0) Table wpfu_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=724) in 0.00 seconds
+0030.907 (0) Table wpfu_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0030.913 (0) Table wpfu_wfsnipcache: Total expected rows (via COUNT): 0
+0030.915 (0) Table wpfu_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=759) in 0.00 seconds
+0030.921 (0) Table wpfu_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0030.926 (0) Table wpfu_wfstatus: Total expected rows (approximate): 1189
+0030.937 (0) Table wpfu_wfstatus: Rows added in this batch (next record: 18433): 1282 (uncompressed bytes in this segment=128637) in 0.01 seconds
+0030.945 (0) Table wpfu_wfstatus: finishing file(s) (2, 22 KB)
+0030.951 (0) Table wpfu_wftrafficrates: Total expected rows (approximate): 0
+0030.953 (0) Table wpfu_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=608) in 0.00 seconds
+0030.959 (0) Table wpfu_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0030.965 (0) Table wpfu_wfwaffailures: Total expected rows (via COUNT): 0
+0030.967 (0) Table wpfu_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=571) in 0.00 seconds
+0030.973 (0) Table wpfu_wfwaffailures: finishing file(s) (2, 0.4 KB)
+0030.979 (0) Table wpfu_wpr_rocket_cache: Total expected rows (via COUNT): 21
+0030.980 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0030.985 (0) Table wpfu_wpr_rocket_cache: Rows added in this batch (next record: 25): 21 (uncompressed bytes in this segment=3223) in 0.01 seconds
+0030.991 (0) Table wpfu_wpr_rocket_cache: finishing file(s) (2, 0.8 KB)
+0030.999 (0) Table wpfu_wpr_rucss_used_css: Total expected rows (via COUNT): 0
+0031.003 (0) Table wpfu_wpr_rucss_used_css: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1275) in 0.01 seconds
+0031.013 (0) Table wpfu_wpr_rucss_used_css: finishing file(s) (2, 0.5 KB)
+0031.016 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/desimont/public_html/wp-content/updraft/backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz (line 1923, wp-content/plugins/updraftplus/backup.php)
+0031.019 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_options.table.tmpr133305.gz (1/68/fopen): adding to final database dump
+0031.033 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_options.table.gz (2/68/fopen): adding to final database dump
+0031.036 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_users.table.tmpr2.gz (3/68/fopen): adding to final database dump
+0031.040 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_users.table.gz (4/68/fopen): adding to final database dump
+0031.043 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_usermeta.table.tmpr66.gz (5/68/fopen): adding to final database dump
+0031.046 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_usermeta.table.gz (6/68/fopen): adding to final database dump
+0031.049 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_actions.table.tmpr826.gz (7/68/fopen): adding to final database dump
+0031.051 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_actions.table.gz (8/68/fopen): adding to final database dump
+0031.053 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_claims.table.tmpr0.gz (9/68/fopen): adding to final database dump
+0031.056 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_claims.table.gz (10/68/fopen): adding to final database dump
+0031.058 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_groups.table.tmpr4.gz (11/68/fopen): adding to final database dump
+0031.062 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_groups.table.gz (12/68/fopen): adding to final database dump
+0031.065 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_logs.table.tmpr574.gz (13/68/fopen): adding to final database dump
+0031.068 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_actionscheduler_logs.table.gz (14/68/fopen): adding to final database dump
+0031.071 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_commentmeta.table.tmpr5.gz (15/68/fopen): adding to final database dump
+0031.073 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_commentmeta.table.gz (16/68/fopen): adding to final database dump
+0031.076 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_comments.table.tmpr4.gz (17/68/fopen): adding to final database dump
+0031.078 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_comments.table.gz (18/68/fopen): adding to final database dump
+0031.081 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_countdown_entry.table.tmpr0.gz (19/68/fopen): adding to final database dump
+0031.083 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_countdown_entry.table.gz (20/68/fopen): adding to final database dump
+0031.085 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_entry.table.tmpr0.gz (21/68/fopen): adding to final database dump
+0031.087 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_entry.table.gz (22/68/fopen): adding to final database dump
+0031.089 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_entrymeta.table.tmpr0.gz (23/68/fopen): adding to final database dump
+0031.092 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_entrymeta.table.gz (24/68/fopen): adding to final database dump
+0031.094 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_events.table.tmpr0.gz (25/68/fopen): adding to final database dump
+0031.096 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_form_events.table.gz (26/68/fopen): adding to final database dump
+0031.098 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_query_index.table.tmpr0.gz (27/68/fopen): adding to final database dump
+0031.100 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_kbp_query_index.table.gz (28/68/fopen): adding to final database dump
+0031.102 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_links.table.tmpr0.gz (29/68/fopen): adding to final database dump
+0031.105 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_links.table.gz (30/68/fopen): adding to final database dump
+0031.106 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_postmeta.table.tmpr9578.gz (31/68/fopen): adding to final database dump
+0031.110 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_postmeta.table.gz (32/68/fopen): adding to final database dump
+0031.112 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_posts.table.tmpr6591.gz (33/68/fopen): adding to final database dump
+0031.233 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_posts.table.gz (34/68/fopen): adding to final database dump
+0031.238 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_term_relationships.table.tmpr100001.gz (35/68/fopen): adding to final database dump
+0031.242 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_term_relationships.table.gz (36/68/fopen): adding to final database dump
+0031.245 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_term_taxonomy.table.tmpr9.gz (37/68/fopen): adding to final database dump
+0031.248 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_term_taxonomy.table.gz (38/68/fopen): adding to final database dump
+0031.250 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_termmeta.table.tmpr9.gz (39/68/fopen): adding to final database dump
+0031.252 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_termmeta.table.gz (40/68/fopen): adding to final database dump
+0031.255 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_terms.table.tmpr9.gz (41/68/fopen): adding to final database dump
+0031.257 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_terms.table.gz (42/68/fopen): adding to final database dump
+0031.259 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_hfcm_scripts.table.tmpr2.gz (43/68/fopen): adding to final database dump
+0031.261 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_hfcm_scripts.table.gz (44/68/fopen): adding to final database dump
+0031.264 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_avatar.table.tmpr26.gz (45/68/fopen): adding to final database dump
+0031.266 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_avatar.table.gz (46/68/fopen): adding to final database dump
+0031.268 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_img_optming.table.tmpr0.gz (47/68/fopen): adding to final database dump
+0031.270 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_img_optming.table.gz (48/68/fopen): adding to final database dump
+0031.272 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_url.table.tmpr978.gz (49/68/fopen): adding to final database dump
+0031.274 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_url.table.gz (50/68/fopen): adding to final database dump
+0031.276 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_url_file.table.tmpr6522.gz (51/68/fopen): adding to final database dump
+0031.278 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_litespeed_url_file.table.gz (52/68/fopen): adding to final database dump
+0031.280 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_loginizer_logs.table.tmpr1.gz (53/68/fopen): adding to final database dump
+0031.282 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_loginizer_logs.table.gz (54/68/fopen): adding to final database dump
+0031.284 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_image_storage.table.tmpr35.gz (55/68/fopen): adding to final database dump
+0031.287 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_image_storage.table.gz (56/68/fopen): adding to final database dump
+0031.289 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_section_storage.table.tmpr11535.gz (57/68/fopen): adding to final database dump
+0031.291 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_section_storage.table.gz (58/68/fopen): adding to final database dump
+0031.293 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_generators.table.tmpr0.gz (59/68/fopen): adding to final database dump
+0031.296 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_generators.table.gz (60/68/fopen): adding to final database dump
+0031.298 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_sliders.table.tmpr6.gz (61/68/fopen): adding to final database dump
+0031.300 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_sliders.table.gz (62/68/fopen): adding to final database dump
+0031.302 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_sliders_xref.table.tmpr1001.gz (63/68/fopen): adding to final database dump
+0031.305 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_sliders_xref.table.gz (64/68/fopen): adding to final database dump
+0031.307 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_slides.table.tmpr47.gz (65/68/fopen): adding to final database dump
+0031.310 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_nextend2_smartslider3_slides.table.gz (66/68/fopen): adding to final database dump
+0031.312 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_404_logs.table.tmpr14.gz (67/68/fopen): adding to final database dump
+0031.314 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_404_logs.table.gz (68/68/fopen): adding to final database dump
+0031.316 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_gsc.table.tmpr0.gz (69/68/fopen): adding to final database dump
+0031.318 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_gsc.table.gz (70/68/fopen): adding to final database dump
+0031.320 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_inspections.table.tmpr0.gz (71/68/fopen): adding to final database dump
+0031.323 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_inspections.table.gz (72/68/fopen): adding to final database dump
+0031.325 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_objects.table.tmpr24.gz (73/68/fopen): adding to final database dump
+0031.327 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_analytics_objects.table.gz (74/68/fopen): adding to final database dump
+0031.329 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_internal_links.table.tmpr24059.gz (75/68/fopen): adding to final database dump
+0031.331 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_internal_links.table.gz (76/68/fopen): adding to final database dump
+0031.333 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_internal_meta.table.tmpr6538.gz (77/68/fopen): adding to final database dump
+0031.336 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_internal_meta.table.gz (78/68/fopen): adding to final database dump
+0031.338 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_redirections.table.tmpr14.gz (79/68/fopen): adding to final database dump
+0031.340 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_redirections.table.gz (80/68/fopen): adding to final database dump
+0031.342 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_redirections_cache.table.tmpr15.gz (81/68/fopen): adding to final database dump
+0031.345 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_rank_math_redirections_cache.table.gz (82/68/fopen): adding to final database dump
+0031.347 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfauditevents.table.tmpr0.gz (83/68/fopen): adding to final database dump
+0031.349 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfauditevents.table.gz (84/68/fopen): adding to final database dump
+0031.352 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfblockediplog.table.tmpr1001.gz (85/68/fopen): adding to final database dump
+0031.354 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfblockediplog.table.gz (86/68/fopen): adding to final database dump
+0031.356 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfblocks7.table.tmpr0.gz (87/68/fopen): adding to final database dump
+0031.358 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfblocks7.table.gz (88/68/fopen): adding to final database dump
+0031.361 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfconfig.table.tmpr1001.gz (89/68/fopen): adding to final database dump
+0031.370 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfconfig.table.gz (90/68/fopen): adding to final database dump
+0031.372 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfcrawlers.table.tmpr1001.gz (91/68/fopen): adding to final database dump
+0031.375 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfcrawlers.table.gz (92/68/fopen): adding to final database dump
+0031.377 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wffilechanges.table.tmpr1.gz (93/68/fopen): adding to final database dump
+0031.380 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wffilechanges.table.gz (94/68/fopen): adding to final database dump
+0031.382 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wffilemods.table.gz (95/68/fopen): adding to final database dump
+0031.405 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfhits.table.tmpr1218.gz (96/68/fopen): adding to final database dump
+0031.410 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfhits.table.gz (97/68/fopen): adding to final database dump
+0031.414 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfhoover.table.tmpr0.gz (98/68/fopen): adding to final database dump
+0031.442 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfhoover.table.gz (99/68/fopen): adding to final database dump
+0031.481 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfissues.table.tmpr87.gz (100/68/fopen): adding to final database dump
+0031.486 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfissues.table.gz (101/68/fopen): adding to final database dump
+0031.490 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfknownfilelist.table.gz (102/68/fopen): adding to final database dump
+0031.501 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflivetraffichuman.table.tmpr1.gz (103/68/fopen): adding to final database dump
+0031.505 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflivetraffichuman.table.gz (104/68/fopen): adding to final database dump
+0031.508 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflocs.table.tmpr1001.gz (105/68/fopen): adding to final database dump
+0031.511 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflocs.table.gz (106/68/fopen): adding to final database dump
+0031.514 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflogins.table.tmpr541.gz (107/68/fopen): adding to final database dump
+0031.517 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wflogins.table.gz (108/68/fopen): adding to final database dump
+0031.519 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_2fa_secrets.table.tmpr0.gz (109/68/fopen): adding to final database dump
+0031.522 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_2fa_secrets.table.gz (110/68/fopen): adding to final database dump
+0031.525 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_role_counts.table.tmpr1.gz (111/68/fopen): adding to final database dump
+0031.528 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_role_counts.table.gz (112/68/fopen): adding to final database dump
+0031.531 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_settings.table.tmpr1001.gz (113/68/fopen): adding to final database dump
+0031.534 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfls_settings.table.gz (114/68/fopen): adding to final database dump
+0031.537 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfnotifications.table.tmpr1001.gz (115/68/fopen): adding to final database dump
+0031.540 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfnotifications.table.gz (116/68/fopen): adding to final database dump
+0031.543 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfpendingissues.table.tmpr0.gz (117/68/fopen): adding to final database dump
+0031.545 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfpendingissues.table.gz (118/68/fopen): adding to final database dump
+0031.547 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfreversecache.table.tmpr1001.gz (119/68/fopen): adding to final database dump
+0031.551 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfreversecache.table.gz (120/68/fopen): adding to final database dump
+0031.553 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfsecurityevents.table.tmpr0.gz (121/68/fopen): adding to final database dump
+0031.555 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfsecurityevents.table.gz (122/68/fopen): adding to final database dump
+0031.558 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfsnipcache.table.tmpr0.gz (123/68/fopen): adding to final database dump
+0031.560 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfsnipcache.table.gz (124/68/fopen): adding to final database dump
+0031.562 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfstatus.table.tmpr18434.gz (125/68/fopen): adding to final database dump
+0031.565 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfstatus.table.gz (126/68/fopen): adding to final database dump
+0031.567 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wftrafficrates.table.tmpr1.gz (127/68/fopen): adding to final database dump
+0031.570 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wftrafficrates.table.gz (128/68/fopen): adding to final database dump
+0031.572 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfwaffailures.table.tmpr0.gz (129/68/fopen): adding to final database dump
+0031.574 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wfwaffailures.table.gz (130/68/fopen): adding to final database dump
+0031.576 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wpr_rocket_cache.table.tmpr26.gz (131/68/fopen): adding to final database dump
+0031.579 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wpr_rocket_cache.table.gz (132/68/fopen): adding to final database dump
+0031.581 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wpr_rucss_used_css.table.tmpr0.gz (133/68/fopen): adding to final database dump
+0031.583 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db-table-wpfu_wpr_rucss_used_css.table.gz (134/68/fopen): adding to final database dump
+0031.588 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz: finished writing out complete database file (8546.3 KB)
+0031.672 (0) Total database tables backed up: 68 (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz, size: 8751557, sha1: 0f2fba4ad4e5dd8a558161fe1a71116e30cd0ac6, sha256: c3672c999874848ac3bd24f87aeb4c15708d980c12cf7ab1d74bae854b994154)
+0031.687 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip: plugins: This file has already been successfully uploaded
+0031.690 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip: themes: This file has already been successfully uploaded
+0031.692 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip: uploads: This file has already been successfully uploaded
+0031.695 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0031.697 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip: others: This file has already been successfully uploaded
+0031.700 (0) backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz: db: This file has not yet been successfully uploaded: will queue
+0031.703 (0) Saving backup history. Total backup size: 134.3 MB
+0031.709 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0031.718 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0031.721 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-ca448189c56bc6123352ef99e047e271)
+0031.988 (0) Google Drive: quota usage: used=3157.1 MB, total=2097152 MB, available=2093994.9 MB
+0031.994 (0) Google Drive: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz: Attempting to upload to Google Drive (into folder id: 1fg-QjSpbw04usuRq1KrXFNUbgwLU0kR5)
+0032.523 (0) Googledrive chunked upload: 12 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.9 / 106)
+0032.724 (0) Googledrive chunked upload: 35.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.2 / 106)
+0032.927 (0) Googledrive chunked upload: 83.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.2 / 106)
+0033.781 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0033.793 (0) Google Drive: OK: Archive backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz uploaded in 1.79 seconds
+0033.796 (0) Recording as successfully uploaded: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz
+0033.803 (0) Deleting local file: backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-db.gz: OK
+0033.809 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0033.812 (0) Number of backup sets in history: 3; groups (db): 1
+0033.814 (0) Examining (for databases) backup set with group_id=0, nonce=6640fdc307ba, datestamp=1747983554 (May 23 2025 06:59:14)
+0033.817 (0) This backup set is the backup set just made, so will not be deleted.
+0033.817 (0) Examining (for databases) backup set with group_id=0, nonce=febda80849a8, datestamp=1747897076 (May 22 2025 06:57:56)
+0033.817 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0033.821 (0) Examining (for databases) backup set with group_id=0, nonce=f42ab53cdd5e, datestamp=1747810747 (May 21 2025 06:59:07)
+0033.821 (0) 1747810747: db: this set includes a database (backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-db.gz); db count is now 2
+0033.821 (0) 1747810747: db: over retain limit (2); will delete this database
+0034.944 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-db.gz: Deletion successful
+0034.959 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0034.963 (0) Number of backup sets in history: 3; groups (files): 1
+0034.966 (0) Examining (for files) backup set with nonce=6640fdc307ba, datestamp=1747983554 (May 23 2025 06:59:14)
+0034.966 (0) This backup set is the backup set just made, so will not be deleted.
+0034.968 (0) This backup set is the backup set just made, so will not be deleted.
+0034.969 (0) This backup set is the backup set just made, so will not be deleted.
+0034.969 (0) This backup set is the backup set just made, so will not be deleted.
+0034.969 (0) This backup set is the backup set just made, so will not be deleted.
+0034.969 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.972 (0) Examining (for files) backup set with nonce=febda80849a8, datestamp=1747897076 (May 22 2025 06:57:56)
+0034.972 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0034.972 (0) Examining (for files) backup set with nonce=f42ab53cdd5e, datestamp=1747810747 (May 21 2025 06:59:07)
+0034.972 (0) plugins: over retain limit (2); will delete this file entity
+0034.972 (0) themes: over retain limit (2); will delete this file entity
+0034.972 (0) uploads: over retain limit (2); will delete this file entity
+0034.972 (0) mu-plugins: over retain limit (2); will delete this file entity
+0034.972 (0) others: over retain limit (2); will delete this file entity
+0036.342 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-others.zip: Deletion successful
+0036.783 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-mu-plugins.zip: Deletion successful
+0037.100 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-uploads.zip: Deletion successful
+0037.934 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-themes.zip: Deletion successful
+0038.278 (0) Google Drive: backup_2025-05-21-0659_desimonthdatetoday_f42ab53cdd5e-plugins.zip: Deletion successful
+0038.295 (0) This backup set is now empty; will remove from history
+0038.298 (0) Deleting log file (log.f42ab53cdd5e.txt)
+0038.301 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0038.309 (0) Resume backup (6640fdc307ba, 0): finish run
+0038.315 (0) Decremented the semaphore (fd) by 1
+0038.318 (0) Semaphore (fd) unlocked
+0038.321 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0038.330 (0) Deleting zip manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-plugins.zip.list.tmp)
+0038.332 (0) Deleting zip manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-themes.zip.list.tmp)
+0038.334 (0) Deleting zip manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-uploads.zip.list.tmp)
+0038.337 (0) Deleting zip manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-mu-plugins.zip.list.tmp)
+0038.341 (0) Deleting zip manifest (backup_2025-05-23-0659_desimonthdatetoday_6640fdc307ba-others.zip.list.tmp)
+0038.345 (0) No email will/can be sent - the user has not configured an email address.
+0038.348 (0) The backup succeeded and is now complete

@@ -1,0 +1,39 @@
+# Ignore WordPress core (just in case)
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/xmlrpc.php
+/license.txt
+/readme.html
+
+# --- VERY IMPORTANT --- #
+# Ignore the config file!!
+wp-config.php
+
+# --- IGNORE THESE --- #
+# Ignore uploads/media (can get very large)
+wp-content/uploads/
+wp-content/ai1wm-backups/
+
+# Ignore cache, backups, logs, etc.
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+*.log
+debug.log
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore build/dependency folders
+node_modules/
+.sass-cache/
+
+# --- KEEP THESE (Make sure they are NOT ignored) --- #
+!wp-content/
+!wp-content/themes/
+!wp-content/plugins/
